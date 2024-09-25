@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for, session, jsonify, send_from_directory
-from pymongo import MongoClient
 import json
 import os
 from datetime import datetime, timedelta
@@ -15,8 +14,6 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # For session management
 
 # MongoDB URI and connection
-MONGO_URI = "mongodb+srv://vedantdeore11:9322142391%40Abc@mongofirst.fg5b4.mongodb.net/"
-client = MongoClient(MONGO_URI)
 
 
 
@@ -32,15 +29,6 @@ def save_user_credentials(data):
     with open('user_credentials.json', 'w') as f:
         json.dump(data, f, indent=4)
 
-
-
-
-
-
-
-
-
-
 # Configure the API key from the environment variable
 genai.configure(api_key= 'Your_API_Key' )
 model = genai.GenerativeModel('gemini-1.5-flash')
@@ -48,12 +36,6 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 def run_chat(prompt):
     response = model.generate_content(prompt)
     return response.text
-
-
-
-
-
-
 
 
 # load databasedataset===================================
@@ -67,7 +49,6 @@ diets = pd.read_csv("Medicine-Recommendation-System-Personalized-Medical-Recomme
 
 # load model===========================================
 svc = pickle.load(open('Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning/models/svc.pkl','rb'))
-
 
 
 #============================================================
@@ -295,10 +276,6 @@ def get_predicted_value(patient_symptoms):
     for item in patient_symptoms:
         input_vector[symptoms_dict[item]] = 1
     return diseases_list[svc.predict([input_vector])[0]]
-
-
-
-
 
 # Load JSON data
 def load_user_data():
