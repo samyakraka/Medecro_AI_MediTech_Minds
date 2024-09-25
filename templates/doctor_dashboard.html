@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard</title>
+</head>
+<body>
+    <h2>Doctor Dashboard</h2>
+    <h3>Available Doctors</h3>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Specialty</th>
+            <th>Appointments</th>
+        </tr>
+        {% for doctor in doctors %}
+        <tr>
+            <td>{{ doctor.name }}</td>
+            <td>{{ doctor.specialty }}</td>
+            <td>
+                <ul>
+                    {% for appointment in doctor.appointments %}
+                    <li>{{ appointment }}</li>
+                    {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <br>
+    <a href="/logout">Logout</a>
+</body>
+</html>

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medecro</title>
+    <link rel="icon" href="./static/images/heart-pulse-solid.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./static/css/style.css">
+    <style>
+        .owl-dots {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .owl-dot {
+            height: 13px;
+            width: 13px;
+            margin: 0 5px;
+            outline: none !important;
+            border-radius: 50%;
+            border: 2px solid rgb(46, 77, 248) !important;
+            transition: all 0.3s ease;
+        }
+
+        .owl-dot.active {
+            width: 35px;
+            border-radius: 14px;
+        }
+
+        .owl-dot.active,
+        .owl-dot:hover {
+            background: rgb(46, 77, 248) !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="{{url_for('home')}}" class="logo"><img src="https://medecro.ai/assets/logo-rYN2xvPW.png"
+                width="142px"></a>
+        <nav class="navbar">
+            {% if username %}
+            <a href="{{url_for('home')}}#home">Home</a>
+            <a href="{{url_for('home')}}#services">services</a>
+            <a href="{{url_for('home')}}#book">Book</a>
+            <a href="{{url_for('home')}}#scans">Scans</a>
+            <a href="{{url_for('home')}}#blogs">Blogs</a>
+            <a href="{{url_for('home')}}#about">about</a>
+            <a href="{{url_for('profile')}}"><span class="fas fa-user"></span></a>
+            {% else %}
+            <a href="{{url_for('login')}}">Login</a>
+            {% endif %}
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Building New Age <br><span style="color: #16a085;">Healthcare with AI</span> . <br>
+                <!-- <span style="font-size: 4.0rem;">your                    Personalized Healthcare telemedicine assistant platform.</span></h3> -->
+                <!-- <h3>stay healthy</h3> -->
+                <p>Assisting medical professionals in achieving
+                    enhanced clinical outcomes</p>
+                <a href="#services" class="btn-home">Get Started<span class="fas fa-chevron-right"></span></a>
+        </div>
+        <!-- https://img.freepik.com/premium-photo/set-doctors-group-medical_987366-33575.jpg -->
+        <div class="image">
+            <img src="https://as2.ftcdn.net/v2/jpg/06/08/31/23/1000_F_608312317_Fw32PZ9mV6mHWp1VIgEYAYzDUwHgyXCJ.jpg" alt="">
+            
+            <!-- <dotlottie-player src="" background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                autoplay></dotlottie-player>
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+                type="module"></script>
+
+            <dotlottie-player src="https://lottie.host/122312b9-f926-48bb-84ab-8769b6288899/hYWfpW40Qw.json"
+                background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                autoplay></dotlottie-player> -->
+
+        </div>
+    </section>
+
+    <h1 class="heading">Revolutionizing <span> Healthcare</span></h1>
+    <p class="external">Our AI-based algorithms swiftly and accurately analyze patient clinical data, assisting medical
+        professionals in diagnosing health issues more efficiently</p>
+    <section class="icons-container">
+
+        <div class="glass">
+            <i class="fas fa-user-md"></i>
+            <h3>140+</h3>
+            <p>Timely Recognition of Diseases.
+                By utilizing India-specific training data, our AI algorithms facilitate early detection of health
+                issues, enabling prompt treatment and prevention of complications.</p>
+        </div>
+        <div class="glass">
+            <i class="fa-solid fa-video"></i>
+            <h3>1400+</h3>
+            <p>Our AI application meets the unique needs of healthcare organizations. Our solution is versatile and
+                adaptable, ensuring seamless integration.</p>
+        </div>
+        <div class="glass">
+            <i class="fas fa-users"></i>
+            <h3>500+</h3>
+            <p>Elevate the patient experience through AI driven solutions. From personalized care recommendations to
+                optimized workflows, we prioritize the holistic well-being of patients.</p>
+        </div>
+        <div class="glass">
+            <i class="fas fa-file"></i>
+            <h3>400+</h3>
+            <p>Leverage AI to expedite healthcare research and development. Our cutting-edge technology enabling prompt
+                treatment accelerates scientific discoveries and innovation.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="heading">Artificial Intelligence <span>Features</span></h1>
+        <div class="box-container">
+            <div class="glass-box">
+                <i class="fas fa-notes-medical"></i>
+                <h3>Generative Ai </h3>
+                <p>Chat with ai to get and diagnos diseases</p>
+                <a href="{{url_for('chat')}}" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+            </div>
+            <!-- <div class="glass-box">
+                <i class="fas fa-comments"></i>
+                <h3>Chat with Doctors</h3>
+                <p>Message our team of licensed doctors and get personalized medical advice.</p>
+                <a href="" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+            </div> -->
+            <!-- <div class="glass-box">
+                <i class="fas fa-video"></i>
+                <h3></h3>
+                <p>Schedule virtual appointments and consultations with top specialists doctors.</p>
+                
+            </div> -->
+            <div class="glass-box">
+                <i class="fas fa-user-doctor"></i>
+                <h3>Appointment</h3>
+                <p>Search for doctors and take appointments.</p>
+                <a href="{{url_for('book_appointment')}}" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+            </div>
+            <!-- <div class="glass-box">
+                <i class="fas fa-envelope"></i>
+                <h3>SMS | Mail service</h3>
+                <p>Get medication reminders, test results, and appointment alerts via SMS or email.</p>
+                <a href="" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+            </div> -->
+            <!-- <div class="glass-box">
+                <i class="fas fa-heartbeat"></i>
+                <h3>AI Prediction</h3>
+                <p>Upload and store lab tests, imaging scans, and medical records securely.</p>
+                <a href="#scans" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+            </div> -->
+            <!-- <div class="glass-box">
+                <i class="fas fa-plus"></i>
+                <h3>mental health</h3>
+                <p>Supportive and Confidential Mental Health Guidance.</p>
+                
+            </div> -->
+            <!-- <div class="glass-box">
+                <i class="fa-brands fa-blogger"></i>
+                <h3>Healty Blogs</h3>
+                <p>Read our regularly updated blogs with health tips and wellness advice.</p>
+                <a href="#blogs" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+            </div> -->
+            <!-- <div class="glass-box">
+                <i class="fas fa-shield-halved"></i>
+                <h3>Privacy</h3>
+                <p>We take data privacy and security very seriously.</p>
+               
+            </div> -->
+            <div class="glass-box">
+                <i class="fas fa-hand-holding-heart"></i>
+                <h3>total care</h3>
+                <p>Comprehensive care, from everyday wellness to critical emergencies.</p>
+                <a href="" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <section class="doctors" id="doctors">
+        <h1 class="heading">
+            our <span> Doctors</span>
+        </h1>
+        <div class="box-container">
+            <div class="carousel owl-carousel">
+                <div class="glass-box" style="height: 43rem;">
+                    <center><img src="../static/images/doc2.jpg" alt="" style="height: 30rem; width: 25rem;"></center>
+                    <h3>Dr. Vikram Kapoor</h3>
+                    <span>Pediatrician</span>
+
+                </div>
+                <div class="glass-box" style="height: 43rem;">
+                    <center>
+                        <img src="../static/images/doc1.jpg" alt="" style="height: 30rem; width: 25rem;">
+
+                    </center>
+                    <h3>Dr. Rahul Desai</h3>
+                    <span>Cardiologist</span>
+
+                </div>
+                <div class="glass-box" style="height: 43rem;">
+                    <center>
+                        <img src="../static/images/doc3.jpeg" alt="" style="height: 30rem; width: 25rem;">
+
+                    </center>
+
+                    <h3>Dr. Aryan Joshi</h3>
+                    <span>Orthopedic Surgeon</span>
+
+                </div>
+                <div class="glass-box" style="height: 43rem;">
+                    <center>
+                        <img src="../static/images/doc4.jpg" alt="" style="height: 30rem; width: 25rem;">
+
+                    </center>
+
+                    <h3>Dr. Siddharth Malhotra</h3>
+                    <span>Psychiatrist</span>
+
+                </div>
+                <div class="glass-box" style="height: 43rem;">
+                    <center>
+                        <img src="../static/images/doc5.jpeg" alt="" style="height: 30rem; width: 25rem;">
+
+                    </center>
+
+                    <h3>Dr. Rohit Choudhary</h3>
+                    <span>Dermatologist</span>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section> -->
+
+
+
+    <section class="blogs" id="book">
+        <h1 class="heading">Take an <span>Appointment</span></h1>
+      
+    </section>
+
+    <section class="services" id="scans">
+        <h1 class="heading">Scans &<span> Predictions</span></h1>
+        <div class="box-container">
+            <div class="glass-box">
+                <i class="fas fa-stethoscope"></i>
+                <h3>Gen ai Disease prediction</h3>
+                <p>Disease prediction using ML involves analyzing medical data to forecast the likelihood of a specific
+                    ailment, enabling early intervention.</p>
+                <a href="{{url_for('chat')}}" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+           
+            </div>
+            <div class="glass-box">
+                <i class="fas fa-lungs"></i>
+                <h3>Lung Disease Predcition</h3>
+                <p>Lung cancer is a malignant lung tumor, often caused by smoking. Symptoms include coughing, chest
+                    pain, and difficulty
+                    breathing.</p>
+                
+            </div>
+            
+
+
+        </div>
+    </section>
+
+
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> <span> Visit</span></h1>
+        <div class="box-container">
+            <!-- <div class="glass-box">
+                <div class="image">
+                    <img src="https://cdni.iconscout.com/illustration/premium/thumb/health-checkup-5629721-4695022.png"
+                        alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="" class="disabled"><i class="fas fa-calendar"></i> 25th dec, 2023</a>
+                       
+                    </div>
+                    <h3>Transforming Healthcare</h3>
+                    <p>Transforming Healthcare: The Human Touch of AI and Telemedicine.</p>
+                   
+                </div>
+            </div> -->
+            <!-- <div class="glass-box">
+                <div class="image">
+                    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/healthy-life-6358794-5272656.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="" class="disabled"><i class="fas fa-calendar"></i> 26th dec, 2023</a>
+                      
+
+                    </div>
+                    <h3>Comprehensive Guide to Health</h3>
+                    <p>A Comprehensive Guide to Holistic Health: Nurturing Your Mind and Body.</p>
+                   
+                </div>
+            </div> -->
+            <!-- <div class="glass-box">
+                <div class="image">
+                    <img src="https://cdni.iconscout.com/illustration/premium/thumb/eating-healthy-food-5071179-4263644.png?f=webp"
+                        alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        
+                    </div>
+                    <h3>The Power of a Healthy Diet</h3>
+                    <p>"Nourishing Your Body: The Power of a Healthy Diet</p>
+                
+                </div>
+            </div> -->
+            <!-- <div class="glass-box">
+                <div class="image">
+                    <img src="https://cdni.iconscout.com/illustration/premium/thumb/man-doing-exercise-with-dumbells-4075152-3374986.png?f=webp"
+                        alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="" class="disabled"><i class="fas fa-calendar"></i> 27th dec, 2023</a>
+                      
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading">About <span> Us </span></h1>
+        <div class="row">
+            <div class="image image1" >
+                <img src="https://img.freepik.com/premium-photo/set-doctors-group-medical_987366-33575.jpg" alt="">
+
+            </div>
+            <div class="content">
+                <h3>we take care of your healthy life.</h3>
+                <p>We are a Group of two undergrad student of KIIT, Bhubaneswar, Odisha, INDIA.</p>
+                <p>Still learning and have a great interest in developing and integrating different types of
+                    technologies. Worked with various Tech stacks and participated in numerous events, hackathons and
+                    competetions and the count will never stop. <br> Want to know more about us ? Click below to
+                    explore:
+                </p>
+              
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="{{url_for('home')}}#home"><i class="fas fa-chevron-right"></i> home</a>
+                <a href="{{url_for('home')}}#services"><i class="fas fa-chevron-right"></i> services</a>
+                <a href="{{url_for('home')}}#book"><i class="fas fa-chevron-right"></i>book</a>
+                <a href="{{url_for('home')}}#scans"><i class="fas fa-chevron-right"></i> scans</a>
+                <a href="{{url_for('home')}}#blogs"><i class="fas fa-chevron-right"></i> blogs</a>
+                <a href="{{url_for('home')}}#about"><i class="fas fa-chevron-right"></i> about</a>
+
+
+            </div>
+            <div class="box">
+                <h3>our services </h3>
+                <a href="#book"><i class="fas fa-chevron-right"></i> Book Appointment</a>
+                <a href="#services"><i class="fas fa-chevron-right"></i> Chat with Doc</a>
+                <a href="#services"><i class="fas fa-chevron-right"></i> Mental Health</a>
+                <a href="#services"><i class="fas fa-chevron-right"></i> Chatbot</a>
+                <a href="#scans"><i class="fas fa-chevron-right"></i> Scans</a>
+                <a href="#blogs"><i class="fas fa-chevron-right"></i> Blogs</a>
+
+
+            </div>
+            <!-- <div class="box">
+                <h3>contact info</h3>
+                 <a href="" class="disabled"><i class="fas fa-phone"></i>+91 70441 35575</a> -->
+                <!-- <a href="" class="disabled"><i class="fas fa-phone"></i> +91 62916 53332</a> -->
+                <!-- <a href="mailto:21051302@kiit.ac.in"><i class="fas fa-envelope"></i>21051302@kiit.ac.in</a> -->
+                <!-- <a href="mailto:21051706@kiit.ac.in"><i class="fas fa-envelope"></i>21051706@kiit.ac.in</a> -->
+                <!-- <a href="" class="disabled"><i class="fas fa-map-marker-alt"></i>WB, INDIA</a> -->
+            <!-- </div> --> 
+            <!-- <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.linkedin.com/in/abhishek-mallick09/"><i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="https://www.linkedin.com/in/deepraj-bera-b64996231/"><i
+                        class="fab fa-linkedin"></i>linkedin</a>
+                <a href="https://github.com/Abhishek-Mallick"><i class="fab fa-github"></i>Github</a>
+                <a href="https://github.com/deepraj21"><i class="fab fa-github"></i>Github</a>
+            </div> -->
+        </div>
+
+        <div class="credit">made with 💚 | Medecro @ 2024</div>
+    </section>
+    <script src="./static/js/script.js"></script>
+    <script>
+        $('.carousel').owlCarousel({
+            margin: 20,
+            loop: true,
+            autoplay: true,
+            autoplayTimeOut: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
+                    nav: false
+                }
+            }
+        });
+    </script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <!-- <df-messenger intent="WELCOME" chat-title="JanSevak" agent-id="2bb91a2b-a2a4-4283-be4d-e593eeb44bfb"
+        language-code="en"></df-messenger> -->
+
+
+</body>
+
+</html>

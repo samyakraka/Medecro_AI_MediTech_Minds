@@ -1,0 +1,5045 @@
+{
+    "john_doe": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-19 10:20:45"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-19 10:20:46"
+            },
+            {
+                "sender": "user",
+                "message": "I want to add an appointment",
+                "timestamp": "2024-09-19 10:21:00"
+            },
+            {
+                "sender": "bot",
+                "message": "Sure! Let's book an appointment. Please choose a day from today to the next 7 days.",
+                "timestamp": "2024-09-19 10:21:02"
+            }
+        ],
+        "appointments": [
+            "Monday at 9-12"
+        ],
+        "current_chat": {}
+    },
+    "Vedant": {
+        "chat_history": [],
+        "appointments": [],
+        "current_chat": {}
+    },
+    "vedant": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 10:44:50"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 10:44:50"
+            },
+            {
+                "sender": "user",
+                "message": "How are you",
+                "timestamp": "2024-09-20 10:44:59"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 10:44:59"
+            },
+            {
+                "sender": "user",
+                "message": "I want to add an appointment",
+                "timestamp": "2024-09-20 10:45:13"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 10:45:13"
+            },
+            {
+                "sender": "user",
+                "message": "I want to add an appointmen",
+                "timestamp": "2024-09-20 10:45:22"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 10:45:22"
+            },
+            {
+                "sender": "user",
+                "message": "I want to add an appointment",
+                "timestamp": "2024-09-20 10:45:28"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 10:45:28"
+            },
+            {
+                "sender": "user",
+                "message": "book_appointment",
+                "timestamp": "2024-09-20 10:46:39"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 10:46:39"
+            },
+            {
+                "sender": "user",
+                "message": "book_appointment",
+                "timestamp": "2024-09-20 10:46:55"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 10:46:55"
+            },
+            {
+                "sender": "user",
+                "message": "book appointment",
+                "timestamp": "2024-09-20 10:47:57"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 10:47:57"
+            },
+            {
+                "sender": "user",
+                "message": "book appointment",
+                "timestamp": "2024-09-20 10:48:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Sure! Let's book an appointment. Please choose a day from today to the next 7 days.",
+                "timestamp": "2024-09-20 10:48:18"
+            },
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 10:48:27"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a weekday from today to the next 7 days: Friday, Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 10:48:27"
+            },
+            {
+                "sender": "user",
+                "message": "Monday",
+                "timestamp": "2024-09-20 10:48:42"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a weekday from today to the next 7 days: Friday, Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 10:48:42"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 10:50:07"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a weekday from today to the next 7 days: Friday, Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 10:50:07"
+            },
+            {
+                "sender": "user",
+                "message": "Wednesday",
+                "timestamp": "2024-09-20 10:50:21"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a weekday from today to the next 7 days: Friday, Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 10:50:21"
+            },
+            {
+                "sender": "user",
+                "message": "6",
+                "timestamp": "2024-09-20 10:50:25"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a weekday from today to the next 7 days: Friday, Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 10:50:25"
+            },
+            {
+                "sender": "user",
+                "message": "6",
+                "timestamp": "2024-09-20 10:51:37"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a weekday from today to the next 7 days: Friday, Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 10:51:37"
+            },
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 10:51:40"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a weekday from today to the next 7 days: Friday, Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 10:51:40"
+            },
+            {
+                "sender": "user",
+                "message": "Wednesday",
+                "timestamp": "2024-09-20 10:51:47"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6",
+                "timestamp": "2024-09-20 10:51:47"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 10:51:51"
+            },
+            {
+                "sender": "bot",
+                "message": "Your appointment has been booked for Wednesday at 9-12.",
+                "timestamp": "2024-09-20 10:51:51"
+            }
+        ],
+        "appointments": [
+            "Wednesday at 9-12"
+        ],
+        "current_chat": {}
+    },
+    "samyak": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 10:52:21"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 10:52:21"
+            },
+            {
+                "sender": "user",
+                "message": "book appointment",
+                "timestamp": "2024-09-20 10:52:28"
+            },
+            {
+                "sender": "bot",
+                "message": "Sure! Let's book an appointment. Please choose a day from today to the next 7 days.",
+                "timestamp": "2024-09-20 10:52:28"
+            },
+            {
+                "sender": "user",
+                "message": "What",
+                "timestamp": "2024-09-20 10:52:36"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a weekday from today to the next 7 days: Friday, Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 10:52:36"
+            },
+            {
+                "sender": "user",
+                "message": "Wednesday",
+                "timestamp": "2024-09-20 10:52:47"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6",
+                "timestamp": "2024-09-20 10:52:47"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 10:52:53"
+            },
+            {
+                "sender": "bot",
+                "message": "Your appointment has been booked for Wednesday at 9-12.",
+                "timestamp": "2024-09-20 10:52:53"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 11:01:32"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:01:32"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 11:02:14"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:02:14"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 11:03:06"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:03:06"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 11:03:19"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:03:19"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 11:05:13"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:05:13"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 11:05:31"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:05:31"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 11:07:52"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:07:52"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 11:08:07"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:08:07"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 11:08:22"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:08:22"
+            },
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 11:08:24"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 11:08:24"
+            },
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 11:10:05"
+            },
+            {
+                "sender": "bot",
+                "message": "You already have an appointment booked. If you want to change it, please cancel your current appointment first.",
+                "timestamp": "2024-09-20 11:10:05"
+            },
+            {
+                "sender": "user",
+                "message": "Hello\\",
+                "timestamp": "2024-09-20 11:10:10"
+            },
+            {
+                "sender": "bot",
+                "message": "You already have an appointment booked. If you want to change it, please cancel your current appointment first.",
+                "timestamp": "2024-09-20 11:10:10"
+            }
+        ],
+        "appointments": [
+            "Wednesday at 9-12"
+        ],
+        "current_chat": {}
+    },
+    "Dr. Smith": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 11:20:55"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 11:20:55"
+            },
+            {
+                "sender": "user",
+                "message": "I want to add an appointment",
+                "timestamp": "2024-09-20 11:21:02"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:21:02"
+            },
+            {
+                "sender": "user",
+                "message": "book appointment",
+                "timestamp": "2024-09-20 11:21:08"
+            },
+            {
+                "sender": "bot",
+                "message": "Sure! Let's book an appointment. Please choose a day from today to the next 7 days.",
+                "timestamp": "2024-09-20 11:21:08"
+            },
+            {
+                "sender": "user",
+                "message": "What",
+                "timestamp": "2024-09-20 11:21:13"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a weekday from today to the next 7 days: Friday, Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 11:21:13"
+            },
+            {
+                "sender": "user",
+                "message": "Saturday",
+                "timestamp": "2024-09-20 11:21:19"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6",
+                "timestamp": "2024-09-20 11:21:19"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 11:21:24"
+            },
+            {
+                "sender": "bot",
+                "message": "Your appointment has been booked for Saturday at 9-12.",
+                "timestamp": "2024-09-20 11:21:24"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 11:22:35"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 11:22:35"
+            },
+            {
+                "sender": "user",
+                "message": "Yes",
+                "timestamp": "2024-09-20 11:22:39"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to see available doctors?",
+                "timestamp": "2024-09-20 11:22:39"
+            },
+            {
+                "sender": "user",
+                "message": "Yes",
+                "timestamp": "2024-09-20 11:22:46"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to see available doctors?",
+                "timestamp": "2024-09-20 11:22:46"
+            },
+            {
+                "sender": "user",
+                "message": "Yes",
+                "timestamp": "2024-09-20 11:26:36"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:26:36"
+            }
+        ],
+        "appointments": [
+            "Saturday at 9-12"
+        ],
+        "current_chat": {
+            "symptom_check": true,
+            "medication_recommendation": true
+        }
+    },
+    "Rahul": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 11:26:55"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 11:26:55"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 11:27:03"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 11:27:03"
+            },
+            {
+                "sender": "user",
+                "message": "Yes",
+                "timestamp": "2024-09-20 11:27:07"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:27:07"
+            },
+            {
+                "sender": "user",
+                "message": "Yes",
+                "timestamp": "2024-09-20 11:27:13"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:27:13"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:27:19"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:27:19"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:27:25"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:27:25"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:27:51"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:27:51"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:27:56"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:27:56"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": true,
+            "medication_recommendation": true
+        }
+    },
+    "1": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 11:28:09"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 11:28:09"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 11:28:16"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 11:28:16"
+            },
+            {
+                "sender": "user",
+                "message": "Yes",
+                "timestamp": "2024-09-20 11:28:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:28:18"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:28:25"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:28:25"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:28:52"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:28:52"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:29:23"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:29:23"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": true,
+            "medication_recommendation": true
+        }
+    },
+    "2": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 11:29:31"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 11:29:31"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 11:29:46"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 11:29:46"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:29:49"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:29:49"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:29:51"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:29:51"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:29:56"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:29:56"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:32:54"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:32:54"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": true,
+            "medication_recommendation": true
+        }
+    },
+    "3": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 11:33:01"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 11:33:01"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 11:33:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 11:33:18"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:33:21"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:33:21"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:33:25"
+            },
+            {
+                "sender": "bot",
+                "message": "Based on your symptoms, I recommend some basic medications. Would you like to book an appointment with a doctor for your fever? (yes/no)",
+                "timestamp": "2024-09-20 11:33:25"
+            },
+            {
+                "sender": "user",
+                "message": "no",
+                "timestamp": "2024-09-20 11:34:10"
+            },
+            {
+                "sender": "bot",
+                "message": "Okay, please monitor your symptoms and consult a doctor if necessary.",
+                "timestamp": "2024-09-20 11:34:10"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {}
+    },
+    "4": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 11:48:28"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 11:48:28"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 11:48:33"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 11:48:33"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:48:35"
+            },
+            {
+                "sender": "bot",
+                "message": "Sorry, there are no doctors available for fever.",
+                "timestamp": "2024-09-20 11:48:35"
+            },
+            {
+                "sender": "user",
+                "message": "I have hear problem",
+                "timestamp": "2024-09-20 11:48:45"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 11:48:45"
+            },
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 11:49:02"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 11:49:02"
+            },
+            {
+                "sender": "user",
+                "message": "I have heart problem",
+                "timestamp": "2024-09-20 11:49:11"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms related to heart disease? (yes/no)",
+                "timestamp": "2024-09-20 11:49:11"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:49:15"
+            },
+            {
+                "sender": "bot",
+                "message": "Sorry, there are no doctors available for heart.",
+                "timestamp": "2024-09-20 11:49:15"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {}
+    },
+    "5": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 11:54:40"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 11:54:40"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 11:54:45"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 11:54:45"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:54:47"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 11:54:47"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 11:54:53"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 11:54:53"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "medication_recommendation": true,
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "6": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:05:10"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:05:10"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:05:15"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:05:15"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:05:17"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:05:17"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:05:19"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:05:19"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "medication_recommendation": true,
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "7": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:08:48"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:08:48"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:08:58"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:08:58"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:09:02"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:09:02"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:09:04"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:09:04"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:09:07"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:09:07"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:09:09"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:09:09"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "medication_recommendation": true,
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "8": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:09:56"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:09:56"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:10:00"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:10:00"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:10:02"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:10:02"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:10:04"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:10:04"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:10:07"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:10:07"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:10:08"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:10:08"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "medication_recommendation": true,
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "9": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:10:56"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:10:56"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:11:01"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:11:01"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:11:03"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:11:03"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:11:04"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:11:04"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:11:06"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:11:06"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:11:07"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:11:07"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "medication_recommendation": true,
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "10": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:12:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:12:18"
+            },
+            {
+                "sender": "user",
+                "message": "i havve fever",
+                "timestamp": "2024-09-20 12:12:24"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:12:24"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:12:26"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:12:26"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:12:29"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:12:29"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:12:31"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:12:31"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "medication_recommendation": true,
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "11": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:13:16"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:13:16"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:13:20"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:13:20"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:13:24"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:13:24"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:13:25"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Would you like to book an appointment with one of them? (yes/no)",
+                "timestamp": "2024-09-20 12:13:25"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:15:30"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Please select a doctor by name.",
+                "timestamp": "2024-09-20 12:15:30"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "medication_recommendation": true,
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "12": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:15:39"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:15:39"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:15:45"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:15:45"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:15:47"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Please select a doctor by name.",
+                "timestamp": "2024-09-20 12:15:47"
+            },
+            {
+                "sender": "user",
+                "message": "Dr. Taylor",
+                "timestamp": "2024-09-20 12:15:55"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:15:55"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:15:59"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Please select a doctor by name.",
+                "timestamp": "2024-09-20 12:15:59"
+            },
+            {
+                "sender": "user",
+                "message": "Taylor",
+                "timestamp": "2024-09-20 12:16:05"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:16:05"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "111": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:17:53"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:17:53"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:17:57"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:17:57"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:17:59"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Please select a doctor by name.",
+                "timestamp": "2024-09-20 12:17:59"
+            },
+            {
+                "sender": "user",
+                "message": "Dr. Taylor",
+                "timestamp": "2024-09-20 12:18:05"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:18:05"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "13": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:22:51"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:22:51"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:22:59"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:22:59"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:23:01"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Please select a doctor by name.",
+                "timestamp": "2024-09-20 12:23:01"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:23:02"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Please select a doctor by name.",
+                "timestamp": "2024-09-20 12:23:02"
+            },
+            {
+                "sender": "user",
+                "message": "Dr. Taylor",
+                "timestamp": "2024-09-20 12:23:09"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:23:09"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "14": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "hello",
+                "timestamp": "2024-09-20 12:24:26"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:24:26"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:24:31"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:24:31"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:24:34"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Please select a doctor by name.",
+                "timestamp": "2024-09-20 12:24:34"
+            },
+            {
+                "sender": "user",
+                "message": "Dr. Taylor",
+                "timestamp": "2024-09-20 12:24:39"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:24:39"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "15": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:33:34"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:33:34"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:33:41"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:33:41"
+            },
+            {
+                "sender": "user",
+                "message": "ye",
+                "timestamp": "2024-09-20 12:33:43"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:33:43"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:33:45"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Please select a doctor by name.",
+                "timestamp": "2024-09-20 12:33:45"
+            },
+            {
+                "sender": "user",
+                "message": "Dr. Taylor",
+                "timestamp": "2024-09-20 12:33:51"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:33:51"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "16": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:35:34"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:35:34"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:35:39"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:35:39"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:35:41"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever: Dr. Taylor. Please select a doctor by name.",
+                "timestamp": "2024-09-20 12:35:41"
+            },
+            {
+                "sender": "user",
+                "message": "Dr. Taylor",
+                "timestamp": "2024-09-20 12:35:46"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:35:46"
+            },
+            {
+                "sender": "user",
+                "message": "Dr. Taylor.",
+                "timestamp": "2024-09-20 12:35:51"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:35:51"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "17": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:39:27"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:39:27"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:39:34"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:39:34"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:39:36"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 12:39:36"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 12:39:39"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:39:39"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "18": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:40:46"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:40:46"
+            },
+            {
+                "sender": "user",
+                "message": "I have ffevver",
+                "timestamp": "2024-09-20 12:40:51"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 12:40:51"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:40:55"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:40:55"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:40:57"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 12:40:57"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 12:40:59"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:40:59"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "19": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 12:57:58"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 12:57:58"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 12:58:03"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 12:58:03"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 12:58:06"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 12:58:06"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 12:58:08"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:58:08"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 12:58:11"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 12:58:11"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "20": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 13:02:47"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 13:02:47"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 13:02:52"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 13:02:52"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 13:02:54"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 13:02:54"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 13:02:55"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 13:02:55"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 13:02:59"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 13:02:59"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "21": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 13:55:20"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 13:55:20"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 13:55:27"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 13:55:27"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 13:55:29"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 13:55:29"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 13:55:30"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 13:55:30"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "22": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 13:56:59"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 13:56:59"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 13:57:03"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 13:57:03"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 13:57:05"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 13:57:05"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 13:57:06"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (excluding weekends): Friday 20 Sep 2024, Monday 23 Sep 2024, Tuesday 24 Sep 2024, Wednesday 25 Sep 2024, Thursday 26 Sep 2024",
+                "timestamp": "2024-09-20 13:57:06"
+            },
+            {
+                "sender": "user",
+                "message": "Friday 20 Sep 2024",
+                "timestamp": "2024-09-20 13:57:21"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 13:57:21"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": true
+        }
+    },
+    "23": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 13:58:41"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 13:58:41"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 13:58:46"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 13:58:46"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 13:58:49"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 13:58:49"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 13:58:50"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (excluding weekends): Friday 20 Sep 2024, Monday 23 Sep 2024, Tuesday 24 Sep 2024, Wednesday 25 Sep 2024, Thursday 26 Sep 2024",
+                "timestamp": "2024-09-20 13:58:50"
+            },
+            {
+                "sender": "user",
+                "message": "Wednesday 25 Sep 2024",
+                "timestamp": "2024-09-20 13:58:58"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 13:58:58"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": true
+        }
+    },
+    "24": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 13:59:37"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday 20 Sep 2024, Monday 23 Sep 2024, Tuesday 24 Sep 2024, Wednesday 25 Sep 2024, Thursday 26 Sep 2024",
+                "timestamp": "2024-09-20 13:59:37"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {}
+    },
+    "25": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:01:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday 20 Sep 2024, Monday 23 Sep 2024, Tuesday 24 Sep 2024, Wednesday 25 Sep 2024, Thursday 26 Sep 2024",
+                "timestamp": "2024-09-20 14:01:18"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {}
+    },
+    "26": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:01:43"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today?",
+                "timestamp": "2024-09-20 14:01:43"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:01:47"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:01:47"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:01:49"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:01:49"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:01:50"
+            },
+            {
+                "sender": "bot",
+                "message": "Please respond with 'yes' or 'no'.",
+                "timestamp": "2024-09-20 14:01:50"
+            },
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:02:01"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:02:01"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:02:04"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (excluding weekends): Friday 20 Sep 2024, Monday 23 Sep 2024, Tuesday 24 Sep 2024, Wednesday 25 Sep 2024, Thursday 26 Sep 2024",
+                "timestamp": "2024-09-20 14:02:04"
+            },
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:02:12"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:02:12"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": null
+        }
+    },
+    "27": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:02:23"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday 20 Sep 2024, Monday 23 Sep 2024, Tuesday 24 Sep 2024, Wednesday 25 Sep 2024, Thursday 26 Sep 2024",
+                "timestamp": "2024-09-20 14:02:23"
+            },
+            {
+                "sender": "user",
+                "message": "hELLO",
+                "timestamp": "2024-09-20 14:02:26"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday 20 Sep 2024, Monday 23 Sep 2024, Tuesday 24 Sep 2024, Wednesday 25 Sep 2024, Thursday 26 Sep 2024",
+                "timestamp": "2024-09-20 14:02:26"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {}
+    },
+    "28": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:03:09"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:03:09"
+            },
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:03:12"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:03:12"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {}
+    },
+    "29": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:04:38"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:04:38"
+            },
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:04:43"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:04:43"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {}
+    },
+    "30": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:05:21"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:05:21"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:05:31"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:05:31"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:05:33"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:05:33"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:05:35"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (excluding weekends): Friday 20 Sep 2024, Monday 23 Sep 2024, Tuesday 24 Sep 2024, Wednesday 25 Sep 2024, Thursday 26 Sep 2024",
+                "timestamp": "2024-09-20 14:05:35"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:05:42"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:05:42"
+            },
+            {
+                "sender": "user",
+                "message": "Wednesday 25 Sep 2024",
+                "timestamp": "2024-09-20 14:05:50"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:05:50"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": true
+        }
+    },
+    "31": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:07:02"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:07:02"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:07:08"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:07:08"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:07:10"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:07:10"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:07:11"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (excluding weekends): Friday 20 Sep 2024, Monday 23 Sep 2024, Tuesday 24 Sep 2024, Wednesday 25 Sep 2024, Thursday 26 Sep 2024",
+                "timestamp": "2024-09-20 14:07:11"
+            },
+            {
+                "sender": "user",
+                "message": "Thursday 26 Sep 2024",
+                "timestamp": "2024-09-20 14:07:19"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:07:19"
+            },
+            {
+                "sender": "user",
+                "message": "Thursday",
+                "timestamp": "2024-09-20 14:07:25"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:07:25"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": true
+        }
+    },
+    "34": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:08:27"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:08:27"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:08:30"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:08:30"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:08:32"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:08:32"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:08:33"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:08:33"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:08:39"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:08:39"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": true
+        }
+    },
+    "35": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:09:52"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:09:52"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:09:58"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:09:58"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:10:00"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:10:00"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:10:01"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:10:01"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:10:09"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:10:09"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": true
+        }
+    },
+    "36": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:10:48"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:10:48"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:10:52"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:10:52"
+            },
+            {
+                "sender": "user",
+                "message": "ys",
+                "timestamp": "2024-09-20 14:10:54"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:10:54"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:10:56"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:10:56"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:10:59"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:10:59"
+            },
+            {
+                "sender": "user",
+                "message": "Thursday",
+                "timestamp": "2024-09-20 14:11:07"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:11:07"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": true
+        }
+    },
+    "40": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:19:08"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:19:08"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:19:14"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:19:14"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:19:16"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:19:16"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:19:17"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:19:17"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:19:21"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:19:21"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:19:27"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:19:27"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:19:30"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:19:30"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:19:34"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:19:34"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": true
+        }
+    },
+    "41": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:20:16"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:20:16"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:20:20"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:20:20"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:20:22"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:20:22"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:20:23"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:20:23"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:20:26"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:20:26"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:20:40"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:20:40"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": true
+        }
+    },
+    "43": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:21:26"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:21:26"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:21:30"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:21:30"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:21:33"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:21:33"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:21:36"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:21:36"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:21:41"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:21:41"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "appointment_day": true
+        }
+    },
+    "44": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Heelo",
+                "timestamp": "2024-09-20 14:24:37"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:24:37"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:24:46"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:24:46"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:24:47"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:24:47"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:24:49"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:24:49"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:24:53"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:24:53"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:28:57"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:28:57"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "45": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:29:05"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:29:05"
+            },
+            {
+                "sender": "user",
+                "message": "I havve fevr",
+                "timestamp": "2024-09-20 14:29:08"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:29:08"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:29:15"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:29:15"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:29:17"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:29:17"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:29:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:29:18"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:29:22"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:29:22"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "46": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:33:58"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:33:58"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:34:03"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:34:03"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:34:05"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:34:05"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:34:07"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:34:07"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:34:33"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:34:33"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "47": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:39:30"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:39:30"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:39:33"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:39:33"
+            },
+            {
+                "sender": "user",
+                "message": "ye",
+                "timestamp": "2024-09-20 14:39:35"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:39:35"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:39:36"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:39:36"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:39:38"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:39:38"
+            },
+            {
+                "sender": "user",
+                "message": "Tuesday",
+                "timestamp": "2024-09-20 14:39:44"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:39:44"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "48": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:44:13"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:44:13"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:44:16"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:44:17"
+            },
+            {
+                "sender": "user",
+                "message": "ys",
+                "timestamp": "2024-09-20 14:44:18"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:44:18"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:44:20"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:44:20"
+            },
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:44:28"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:44:28"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:44:33"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:44:33"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:44:37"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:44:37"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ]
+        }
+    },
+    "49": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:46:08"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:46:08"
+            },
+            {
+                "sender": "user",
+                "message": "I have feve",
+                "timestamp": "2024-09-20 14:46:11"
+            },
+            {
+                "sender": "bot",
+                "message": "I'm sorry, I don't understand. You can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:46:11"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:46:15"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:46:15"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:46:17"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:46:17"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:46:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:46:18"
+            },
+            {
+                "sender": "user",
+                "message": "Tuesday",
+                "timestamp": "2024-09-20 14:46:22"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:46:22"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:46:35"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:46:35"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:46:42"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:46:42"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "50": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:47:56"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:47:56"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:48:00"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:48:00"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:48:02"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:48:02"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:48:03"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:48:03"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:48:11"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:48:11"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "51": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:48:57"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:48:57"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:49:01"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:49:01"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:49:02"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:49:02"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:49:03"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:49:03"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:49:06"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:49:06"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "52": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:51:19"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:51:19"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:51:23"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:51:23"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:51:25"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:51:25"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:51:26"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:51:26"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:51:29"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:51:29"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "53": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:52:13"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:52:13"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:52:16"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:52:16"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:52:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:52:18"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:52:20"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:52:20"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:52:22"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:52:22"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "54": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:53:08"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:53:08"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:53:11"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:53:11"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:53:12"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:53:12"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:53:13"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:53:13"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:53:16"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:53:16"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "55": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:54:51"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:54:51"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:54:55"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:54:55"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:54:57"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:54:57"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:55:01"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:55:01"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:55:03"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid doctor number.",
+                "timestamp": "2024-09-20 14:55:03"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true
+        }
+    },
+    "56": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:55:49"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:55:49"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:55:53"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:55:53"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:55:56"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:55:56"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:55:57"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:55:57"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:56:00"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 14:56:00"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 14:56:05"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:56:05"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:56:14"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 14:56:14"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 14:56:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:56:18"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "Friday 20 Sep 2024",
+            "awaiting_time_slot": true
+        }
+    },
+    "57": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:57:23"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:57:23"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 14:57:30"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 14:57:30"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 14:57:31"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 14:57:31"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 14:57:32"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:57:32"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:57:36"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 14:57:36"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 14:57:43"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:57:43"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 14:57:52"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 14:57:52"
+            },
+            {
+                "sender": "user",
+                "message": "1-3",
+                "timestamp": "2024-09-20 14:57:56"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 14:57:56"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "Friday 20 Sep 2024",
+            "awaiting_time_slot": true
+        }
+    },
+    "58": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 14:59:59"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 14:59:59"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 15:00:04"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:00:05"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:00:07"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:00:07"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:00:08"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:00:08"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:00:14"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:00:14"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:00:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:00:18"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:00:25"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:00:25"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:00:29"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:00:29"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "Friday 20 Sep 2024",
+            "awaiting_time_slot": true
+        }
+    },
+    "59": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 15:01:40"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 15:01:40"
+            },
+            {
+                "sender": "user",
+                "message": "I have ffever",
+                "timestamp": "2024-09-20 15:01:43"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:01:43"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:01:47"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:01:47"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:01:48"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:01:48"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:01:53"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:01:53"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:01:58"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:01:58"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "Friday 20 Sep 2024",
+            "awaiting_time_slot": true
+        }
+    },
+    "60": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 15:02:49"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 15:02:49"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 15:02:52"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:02:52"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:02:54"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:02:54"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:02:55"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:02:55"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:02:59"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:02:59"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:03:03"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:03:03"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:03:08"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:03:08"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:03:12"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:03:12"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:03:17"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:03:17"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:03:22"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:03:22"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "Friday 20 Sep 2024",
+            "awaiting_time_slot": true
+        }
+    },
+    "61": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 15:05:27"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 15:05:27"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 15:05:31"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:05:31"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:05:32"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:05:32"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:05:34"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:05:34"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:05:36"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:05:36"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:05:40"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:05:40"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "Friday 20 Sep 2024",
+            "awaiting_time_slot": true
+        }
+    },
+    "62": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 15:11:27"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 15:11:27"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 15:11:32"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:11:32"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:11:33"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:11:33"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:11:35"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:11:35"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:11:37"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:11:37"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:11:44"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:11:44"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "Friday 20 Sep 2024",
+            "awaiting_time_slot": true
+        }
+    },
+    "63": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 15:13:37"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 15:13:37"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 15:13:42"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:13:42"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:13:45"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:13:45"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:13:47"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:13:47"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:13:51"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:13:51"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:13:55"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:13:55"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "Friday 20 Sep 2024",
+            "awaiting_time_slot": true,
+            "temp_day": "Friday 20 Sep 2024"
+        }
+    },
+    "64": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello]",
+                "timestamp": "2024-09-20 15:15:17"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 15:15:17"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 15:15:26"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:15:26"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:15:29"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:15:29"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:15:31"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:15:31"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:15:34"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:15:34"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:15:38"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:15:38"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "Friday",
+            "awaiting_time_slot": true
+        }
+    },
+    "65": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 15:16:16"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 15:16:16"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 15:16:21"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:16:21"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:16:23"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:16:23"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:16:24"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:16:24"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:16:26"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:16:26"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:16:29"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:16:29"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "Friday",
+            "awaiting_time_slot": true
+        }
+    },
+    "66": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 15:18:04"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 15:18:04"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 15:18:08"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:18:08"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:18:09"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:18:09"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:18:10"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:18:10"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:18:13"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:18:13"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:18:17"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid weekday from: Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:18:17"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "friday",
+            "awaiting_time_slot": true
+        }
+    },
+    "67": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 15:19:23"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 15:19:23"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 15:19:26"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:19:26"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:19:28"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:19:28"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:19:30"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment (e.g., Friday):",
+                "timestamp": "2024-09-20 15:19:30"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:19:36"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:19:36"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:19:39"
+            },
+            {
+                "sender": "bot",
+                "message": "Please select a valid day: Monday, Tuesday, Wednesday, Thursday, Friday.",
+                "timestamp": "2024-09-20 15:19:39"
+            }
+        ],
+        "appointments": [],
+        "current_chat": {
+            "symptom_check": "fever",
+            "doctors": [
+                {
+                    "name": "Dr. Taylor",
+                    "specialty": "Fever Specialist",
+                    "appointments": []
+                }
+            ],
+            "selected_doctor": "Dr. Taylor",
+            "awaiting_day": true,
+            "selected_day": "friday",
+            "awaiting_time_slot": true
+        }
+    },
+    "68": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello",
+                "timestamp": "2024-09-20 15:20:18"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 15:20:18"
+            },
+            {
+                "sender": "user",
+                "message": "I have fever",
+                "timestamp": "2024-09-20 15:20:21"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 15:20:21"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 15:20:24"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 15:20:24"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 15:20:26"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 15:20:26"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 15:20:29"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 15:20:29"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 15:20:34"
+            },
+            {
+                "sender": "bot",
+                "message": "Your appointment has been booked with Dr. Taylor on friday during the time slot 9-12.",
+                "timestamp": "2024-09-20 15:20:34"
+            }
+        ],
+        "appointments": [
+            {
+                "doctor": "Dr. Taylor",
+                "day": "friday",
+                "time_slot": "9-12"
+            }
+        ],
+        "current_chat": {}
+    },
+    "69": {
+        "chat_history": [
+            {
+                "sender": "user",
+                "message": "Hello ",
+                "timestamp": "2024-09-20 16:22:20"
+            },
+            {
+                "sender": "bot",
+                "message": "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'.",
+                "timestamp": "2024-09-20 16:22:20"
+            },
+            {
+                "sender": "user",
+                "message": "i HAVE FEVER",
+                "timestamp": "2024-09-20 16:22:29"
+            },
+            {
+                "sender": "bot",
+                "message": "Do you have any other symptoms along with the fever? (yes/no)",
+                "timestamp": "2024-09-20 16:22:29"
+            },
+            {
+                "sender": "user",
+                "message": "yes",
+                "timestamp": "2024-09-20 16:22:34"
+            },
+            {
+                "sender": "bot",
+                "message": "Here are the doctors available for fever:\n1) Dr. Taylor\nPlease select a doctor by number.",
+                "timestamp": "2024-09-20 16:22:34"
+            },
+            {
+                "sender": "user",
+                "message": "1",
+                "timestamp": "2024-09-20 16:22:40"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a day for your appointment from today to the next 7 days (Monday to Friday): Friday, Monday, Tuesday, Wednesday, Thursday",
+                "timestamp": "2024-09-20 16:22:40"
+            },
+            {
+                "sender": "user",
+                "message": "Friday",
+                "timestamp": "2024-09-20 16:22:52"
+            },
+            {
+                "sender": "bot",
+                "message": "Please choose a time slot: 9-12, 1-3, 4-6.",
+                "timestamp": "2024-09-20 16:22:52"
+            },
+            {
+                "sender": "user",
+                "message": "9-12",
+                "timestamp": "2024-09-20 16:22:57"
+            },
+            {
+                "sender": "bot",
+                "message": "Your appointment has been booked with Dr. Taylor on friday during the time slot 9-12.",
+                "timestamp": "2024-09-20 16:22:57"
+            }
+        ],
+        "appointments": [
+            {
+                "doctor": "Dr. Taylor",
+                "day": "friday",
+                "time_slot": "9-12"
+            }
+        ],
+        "current_chat": {}
+    },
+    "70": {
+        "chat_history": [],
+        "appointments": [],
+        "current_chat": {}
+    }
+}

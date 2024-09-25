@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medecro-AI</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #0b0b0b;
+        color: #c4c7c5;
+      }
+
+      .main {
+        flex: 1;
+        min-height: 100vh;
+        padding-bottom: 15vh;
+        position: relative;
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        font-size: 22px;
+        color: #16a085;
+      }
+
+      .nav img {
+        width: 40px;
+        border-radius: 50%;
+      }
+
+      .Appointments {
+        text-decoration: none;
+      }
+      .main-container {
+        max-width: 900px;
+        margin: auto;
+      }
+
+      .greet {
+        margin: 50px 0;
+        font-size: 56px;
+        font-weight: 500;
+        padding: 20px;
+      }
+
+      .greet span {
+        background: #16a085;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      #chat_history {
+        border: 1px solid #ccc;
+        padding: 10px;
+        height: 300px;
+        overflow-y: scroll;
+        background-color: #f9f9f9;
+      }
+
+      .bot-message {
+        color: #2980b9;
+      }
+
+      .user-message {
+        color: #27ae60;
+      }
+
+      .main-bottom {
+        padding: 20px;
+      }
+
+      .search-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: #f0f4f9;
+        padding: 10px 20px;
+        border-radius: 50px;
+      }
+
+      .search-box input {
+        flex: 1;
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 8px;
+        font-size: 18px;
+      }
+
+      .bottom-info {
+        color: white;
+        font-size: 13px;
+        margin: 15px auto;
+        text-align: center;
+        font-weight: 300;
+      }
+
+      button {
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+
+      @media (max-width: 600px) {
+        .search-box {
+          flex-direction: column;
+        }
+      }
+    </style>
+    <script>
+      function scrollToBottom() {
+        var chatHistory = document.getElementById("chat_history");
+        chatHistory.scrollTop = chatHistory.scrollHeight;
+      }
+
+      function animateBotMessage(element) {
+        const message = element.innerText;
+        element.innerText = "";
+        const words = message.split(" ");
+        let index = 0;
+        const interval = setInterval(() => {
+          if (index < words.length) {
+            element.innerHTML += words[index] + " "; // Use regular space
+            index++;
+          } else {
+            clearInterval(interval);
+          }
+        }, 150); // Adjust the speed here (300ms per word)
+      }
+
+      window.onload = function () {
+        scrollToBottom();
+        const botMessages = document.querySelectorAll(".bot-message");
+        if (botMessages.length > 0) {
+          animateBotMessage(botMessages[botMessages.length - 1]); // Animate only the last bot message
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <p>Medecro-AI</p>
+        <img src="/assests/logo.png" alt="User Icon" />
+        <div class="Appointments">
+          <ul>
+            {% for appointment in appointments %}
+            <li>{{ appointment }}</li>
+            {% endfor %}
+          </ul>
+
+          <a href="/appointments">View All Appointments</a>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="greet">
+          <p><span>Hello, Sir/Mam</span></p>
+          <p>How can I help you today?</p>
+        </div>
+        <div id="chat_history">
+          {% for chat in chat_history %}
+          <p>
+            <strong>{{ chat.timestamp }} ({{ chat.sender }}):</strong>
+            {% if chat.sender == 'bot' %}
+            <span class="bot-message" style="display: inline-block"
+              >{{ chat.message | safe }}</span
+            >
+            {% else %}
+            <span class="user-message">{{ chat.message }}</span>
+            {% endif %}
+          </p>
+          {% endfor %}
+        </div>
+        <div class="main-bottom">
+          <form method="POST" action="/chat" class="search-box">
+            <input
+              type="text"
+              name="message"
+              required
+              placeholder="Enter a prompt here"
+            />
+            <button type="submit">
+              <img src="/assests/send_icon.png" alt="Send Icon" />
+            </button>
+          </form>
+          <p class="bottom-info">
+            Medecro-AI may display inaccurate info, including about people, so
+            double-check its responses.
+          </p>
+        </div>
+      </div>
+    </div>
+    <a href="/logout">Logout</a>
+  </body>
+</html>

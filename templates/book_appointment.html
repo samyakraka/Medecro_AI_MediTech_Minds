@@ -1,0 +1,147 @@
+{% if current_appointment %}
+<div class="appointment-box">
+  <h3>Current Appointment:</h3>
+  <p><strong>Doctor:</strong> {{ current_appointment[0]['doctor'] }}</p>
+  <p><strong>Day:</strong> {{ current_appointment[0]['day'] }}</p>
+  <p><strong>Time Slot:</strong> {{ current_appointment[0]['time_slot'] }}</p>
+</div>
+{% else %}
+<form method="POST" class="appointment-form">
+  <label for="selected_doctor">Select Doctor:</label>
+  <select
+    name="selected_doctor"
+    id="selected_doctor"
+    required
+    onchange="fetchAvailableDays()"
+  >
+    <option value="">Select a doctor</option>
+    {% for specialty in specialties_with_doctors %}
+    <option value="{{ specialty }}">{{ specialty }}</option>
+    {% endfor %}
+  </select>
+
+  <label for="selected_day">Select Day:</label>
+  <select
+    name="selected_day"
+    id="selected_day"
+    required
+    onchange="fetchAvailableTimeSlots()"
+  >
+    <option value="">Select a day</option>
+    {% for day in weekdays %}
+    <option value="{{ day }}">{{ day }}</option>
+    {% endfor %}
+  </select>
+
+  <label for="time_slot">Select Time Slot:</label>
+  <select name="selected_time_slot" id="time_slot" required>
+    <option value="">Select a time slot</option>
+  </select>
+
+  <button type="submit" class="btn-primary">Book Appointment</button>
+</form>
+{% endif %}
+
+<script>
+  const appointmentsData = {{ doctors | tojson }};
+
+  function fetchAvailableDays() {
+      const selectedDoctor = document.getElementById('selected_doctor').value;
+      const selectedDayDropdown = document.getElementById('selected_day');
+      const timeSlotDropdown = document.getElementById('time_slot');
+
+      timeSlotDropdown.innerHTML = '<option value="">Select a time slot</option>';
+
+      if (selectedDoctor) {
+          const doctor = appointmentsData.find(doc => ${doc.specialty} (${doc.name}) === selectedDoctor);
+
+          selectedDayDropdown.value = "";
+          fetchAvailableTimeSlots();
+      }
+  }
+
+  function fetchAvailableTimeSlots() {
+      const selectedDoctor = document.getElementById('selected_doctor').value;
+      const selectedDay = document.getElementById('selected_day').value;
+      const timeSlotDropdown = document.getElementById('time_slot');
+
+      timeSlotDropdown.innerHTML = '<option value="">Select a time slot</option>';
+
+      if (selectedDoctor && selectedDay) {
+          const doctor = appointmentsData.find(doc => ${doc.specialty} (${doc.name}) === selectedDoctor);
+          const existingAppointments = doctor.appointments.filter(appt => appt.day.toLowerCase() === selectedDay.toLowerCase());
+
+          const allTimeSlots = ["9-12", "1-3", "4-6"];
+          const unavailableTimeSlots = existingAppointments.map(appt => appt.time_slot);
+          const availableTimeSlots = allTimeSlots.filter(slot => !unavailableTimeSlots.includes(slot));
+
+          availableTimeSlots.forEach(slot => {
+              const option = document.createElement('option');
+              option.value = slot;
+              option.textContent = slot;
+              timeSlotDropdown.appendChild(option);
+          });
+      }
+  }
+</script>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .appointment-form,
+  .appointment-box {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 40px auto;
+    border: 2px solid #f3f8f7;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #5dc8b5;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  }
+
+  .btn-primary {
+    border: 2px solid #5dc8b5;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .btn-primary:hover {
+    background-color: rgb(21, 20, 20);
+  }
+
+  h3 {
+    color: #5dc8b5;
+  }
+
+  p {
+    font-size: 14px;
+    color: #5dc8b5;
+  }
+</style>

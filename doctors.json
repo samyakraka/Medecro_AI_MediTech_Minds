@@ -1,0 +1,113 @@
+[
+    {
+        "name": "Dr. Smith",
+        "specialty": "General Practitioner",
+        "appointments": []
+    },
+    {
+        "name": "Dr. Johnson",
+        "specialty": "Pediatrician",
+        "appointments": []
+    },
+    {
+        "name": "Dr. Williams",
+        "specialty": "Cardiologist",
+        "appointments": [
+            {
+                "patient_id": "samyak@gmail.com",
+                "day": "Wednesday",
+                "time_slot": "9-12"
+            }
+        ]
+    },
+    {
+        "name": "Dr. Taylor",
+        "specialty": "Fever Specialist",
+        "appointments": [
+            {
+                "patient_id": "70",
+                "day": "friday",
+                "time_slot": "9-12"
+            }
+        ]
+    },
+    {
+        "name": "Dr. Brown",
+        "specialty": "Paralysis (brain hemorrhage)",
+        "appointments": [
+            {
+                "patient_id": "2@gmail.com",
+                "day": "monday",
+                "time_slot": "1-3"
+            }
+        ]
+    },
+    {
+        "name": "Dr. Samyak",
+        "specialty": "Fungal Infection",
+        "phone": "123456789",
+        "email": "samyak@gmail.com",
+        "appointments": [
+            {
+                "patient_id": "a@gmail.com",
+                "day": "friday",
+                "time_slot": "9-12"
+            },
+            {
+                "patient_id": "b@gmail.com",
+                "day": "friday",
+                "time_slot": "1-3"
+            },
+            {
+                "patient_id": "c@gmail.com",
+                "day": "Monday",
+                "time_slot": "4-6"
+            },
+            {
+                "patient_id": "d@gmail.com",
+                "day": "Wednesday",
+                "time_slot": "4-6"
+            },
+            {
+                "patient_id": "e@gmail.com",
+                "day": "Thursday",
+                "time_slot": "4-6"
+            },
+            {
+                "patient_id": "vedantdeore45@gmail.com",
+                "day": "thursday",
+                "time_slot": "1-3"
+            },
+            {
+                "patient_id": "2@gmail.com",
+                "day": "wednesday",
+                "time_slot": "4-6"
+            },
+            {
+                "patient_id": "2@gmail.com",
+                "day": "monday",
+                "time_slot": "9-12"
+            },
+            {
+                "patient_id": "3@gmail.com",
+                "day": "Wednesday 25 Sep 2024",
+                "time_slot": "9-12"
+            },
+            {
+                "patient_email": "3@gmail.com",
+                "day": "Tuesday 01 Oct 2024",
+                "time_slot": "1-3"
+            },
+            {
+                "patient_email": "vedantdeore45@gmail.com",
+                "day": "Thursday 26 Sep 2024",
+                "time_slot": "9-12"
+            },
+            {
+                "patient_id": "4@gmail.com",
+                "day": "Thursday 03 Oct 2024",
+                "time_slot": "9-12"
+            }
+        ]
+    }
+]

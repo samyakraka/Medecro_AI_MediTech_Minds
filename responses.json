@@ -1,0 +1,21 @@
+{
+    "questions": [
+        {
+            "question": "hello",
+            "response": "Hello! How can I assist you today?"
+        },
+        {
+            "question": "hi",
+            "response": "Hello! How can I assist you today?"
+        },
+        {
+            "question": "help",
+            "response": "Sure! What do you need help with?"
+        },
+        {
+            "question": "thankyou",
+            "response": "You're welcome! If you have any more questions or need further assistance, feel free to ask!"
+        }
+        
+    ]
+}

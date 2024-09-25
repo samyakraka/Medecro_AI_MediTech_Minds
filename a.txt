@@ -1,0 +1,359 @@
+# Save JSON data
+# def save_user_data(data):
+#     with open('users.json', 'w') as f:
+#         json.dump(data, f, indent=4)
+
+# def save_doctor_data(data):
+#     with open('doctors.json', 'w') as f:
+#         json.dump(data, f, indent=4)
+
+# def load_doctor_data():
+#     with open('doctors.json', 'r') as file:
+#         return json.load(file)
+
+
+
+# def chatbot_response(user_message, user_id, users_data):
+#     response = ""
+#     current_chat = users_data[user_id].get('current_chat', {})
+#     user_message_lower = user_message.lower().strip()
+
+#     # Load doctor data
+#     doctors_data = load_doctor_data()
+
+#     # Initialize states if not present
+#     if "state" not in current_chat:
+#         current_chat["state"] = "start"
+
+#     # Start of conversation
+#     if current_chat["state"] == "start":
+#         if any(greeting in user_message_lower for greeting in ["hello", "hi", "hey"]):
+#             return "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'."
+
+#     # Detect fever
+#     if "fever" in user_message_lower:
+#         response = "Do you have any other symptoms along with the fever? (yes/no)"
+#         current_chat["state"] = "symptom_check"
+
+#     # Handling symptoms
+#     elif current_chat["state"] == "symptom_check" and "yes" in user_message_lower:
+#         doctors = [doc for doc in doctors_data if "fever" in doc["specialty"].lower()]
+#         current_chat["doctors"] = doctors
+#         if doctors:
+#             doctor_names = "\n".join([f"{i + 1}) {doc['name']}" for i, doc in enumerate(doctors)])
+#             response = f"Here are the doctors available for fever:\n{doctor_names}\nPlease select a doctor by number."
+#             current_chat["state"] = "select_doctor"
+#         else:
+#             response = "Sorry, there are no doctors available for fever."
+#             current_chat.clear()
+
+#     # Selecting a doctor
+#     elif current_chat["state"] == "select_doctor" and user_message.isdigit():
+#         doctor_index = int(user_message) - 1
+#         if 0 <= doctor_index < len(current_chat["doctors"]):
+#             current_chat["selected_doctor"] = current_chat["doctors"][doctor_index]["name"]
+#             response = "Please choose a day for your appointment from today to the next 7 days (Monday to Friday):"
+#             weekdays = get_weekdays()
+#             response += " " + ", ".join([day.split()[0] for day in weekdays])
+#             current_chat["state"] = "select_day"
+#         else:
+#             response = "Please select a valid doctor number."
+
+#     # Selecting a day
+#     elif current_chat["state"] == "select_day":
+#         valid_days = [day.split()[0].lower() for day in get_weekdays()]
+#         if user_message_lower in valid_days:
+#             current_chat["selected_day"] = user_message_lower
+#             response = "Please choose a time slot: 9-12, 1-3, 4-6."
+#             current_chat["state"] = "select_time_slot"
+#         else:
+#             response = "Please select a valid weekday."
+
+#     # Selecting a time slot
+#     elif current_chat["state"] == "select_time_slot":
+#         valid_time_slots = ["9-12", "1-3", "4-6"]
+#         if user_message in valid_time_slots:
+#             # Book the appointment for the user
+#             appointment = {
+#                 "doctor": current_chat["selected_doctor"],
+#                 "day": current_chat["selected_day"],
+#                 "time_slot": user_message
+#             }
+#             users_data[user_id]['appointments'].append(appointment)
+
+#             # Book the appointment for the doctor
+#             for doctor in doctors_data:
+#                 if doctor["name"] == current_chat["selected_doctor"]:
+#                     doctor_appointment = {
+#                         "patient_id": user_id,
+#                         "day": current_chat["selected_day"],
+#                         "time_slot": user_message
+#                     }
+#                     doctor['appointments'].append(doctor_appointment)
+#                     break
+
+#             response = f"Your appointment has been booked with {current_chat['selected_doctor']} on {current_chat['selected_day']} during the time slot {user_message}."
+#             current_chat["state"] = "completed"
+            
+#             # Save both user and doctor data
+#             save_user_data(users_data)
+#             save_doctor_data(doctors_data)
+            
+#             current_chat.clear()
+#         else:
+#             response = "Please choose a valid time slot."
+
+#     else:
+#         response = "I'm sorry, I don't understand. You can say 'I want to add an appointment'."
+
+#     users_data[user_id]['current_chat'] = current_chat
+#     save_user_data(users_data)
+#     return response
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def chatbot_response(user_message, user_id, users_data):
+#     response = ""
+#     current_chat = users_data[user_id].get('current_chat', {})
+#     user_message_lower = user_message.lower().strip()
+
+#     # Load doctor data
+#     doctors_data = load_doctor_data()
+
+#     # Initialize states if not present
+#     if "state" not in current_chat:
+#         current_chat["state"] = "start"
+
+#     # Start of conversation
+#     if current_chat["state"] == "start":
+#         if any(greeting in user_message_lower for greeting in ["hello", "hi", "hey"]):
+#             return "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'."
+
+#     # Detect fever
+#     if "fever" in user_message_lower:
+#         response = "Do you have any other symptoms along with the fever? (yes/no)"
+#         current_chat["state"] = "symptom_check"
+
+#     # Handling symptoms
+#     elif current_chat["state"] == "symptom_check" and "yes" in user_message_lower:
+#         doctors = [doc for doc in doctors_data if "fever" in doc["specialty"].lower()]
+#         current_chat["doctors"] = doctors
+#         if doctors:
+#             doctor_names = "\n".join([f"{i + 1}) {doc['name']}" for i, doc in enumerate(doctors)])
+#             response = f"Here are the doctors available for fever:\n{doctor_names}\nPlease select a doctor by number."
+#             current_chat["state"] = "select_doctor"
+#         else:
+#             response = "Sorry, there are no doctors available for fever."
+#             current_chat.clear()
+
+#     # Selecting a doctor
+#     elif current_chat["state"] == "select_doctor" and user_message.isdigit():
+#         doctor_index = int(user_message) - 1
+#         if 0 <= doctor_index < len(current_chat["doctors"]):
+#             current_chat["selected_doctor"] = current_chat["doctors"][doctor_index]["name"]
+#             response = "Please choose a day for your appointment from today to the next 7 days (Monday to Friday):"
+#             weekdays = get_weekdays()
+#             response += " " + ", ".join([day.split()[0] for day in weekdays])
+#             current_chat["state"] = "select_day"
+#         else:
+#             response = "Please select a valid doctor number."
+
+#     # Selecting a day
+#     elif current_chat["state"] == "select_day":
+#         valid_days = [day.split()[0].lower() for day in get_weekdays()]
+#         if user_message_lower in valid_days:
+#             current_chat["selected_day"] = user_message_lower
+#             response = "Please choose a time slot: 9-12, 1-3, 4-6."
+#             current_chat["state"] = "select_time_slot"
+#         else:
+#             response = "Please select a valid weekday."
+
+#     # Selecting a time slot
+#     elif current_chat["state"] == "select_time_slot":
+#         valid_time_slots = ["9-12", "1-3", "4-6"]
+#         if user_message in valid_time_slots:
+#             appointment = {
+#                 "doctor": current_chat["selected_doctor"],
+#                 "day": current_chat["selected_day"],
+#                 "time_slot": user_message
+#             }
+#             users_data[user_id]['appointments'].append(appointment)
+#             response = f"Your appointment has been booked with {current_chat['selected_doctor']} on {current_chat['selected_day']} during the time slot {user_message}."
+#             current_chat["state"] = "completed"
+#             save_user_data(users_data)
+#             current_chat.clear()
+#         else:
+#             response = "Please choose a valid time slot."
+
+#     else:
+#         response = "I'm sorry, I don't understand. You can say 'I want to add an appointment'."
+
+#     users_data[user_id]['current_chat'] = current_chat
+#     save_user_data(users_data)
+#     return response
+
+# def get_weekdays():
+#     from datetime import datetime, timedelta
+
+#     weekdays = []
+#     today = datetime.now()
+#     for i in range(7):
+#         day = today + timedelta(days=i)
+#         if day.weekday() < 5:  # Monday to Friday
+#             weekdays.append(day.strftime("%A %d %b %Y"))
+#     return weekdays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def chatbot_response(user_message, user_id, users_data):
+#     response = ""
+#     current_chat = users_data[user_id].get('current_chat', {})
+#     user_message_lower = user_message.lower().strip()
+
+#     # Load doctor data
+#     doctors_data = load_doctor_data()
+
+#     # Check if the user has an ongoing appointment booking
+#     if current_chat.get("appointment_booked"):
+#         response = "You already have an appointment booked. You can chat about other topics."
+#         return response
+
+#     # Handle greetings
+#     if any(greeting in user_message_lower for greeting in ["hello", "hi", "hey"]):
+#         return "Hello! How can I assist you today? If you want to book an appointment, you can say 'I want to add an appointment'."
+
+#     # Detect symptoms
+#     if "fever" in user_message_lower:
+#         response = "Do you have any other symptoms along with the fever? (yes/no)"
+#         current_chat["symptom_check"] = "fever"
+#     elif current_chat.get("symptom_check") == "fever" and "yes" in user_message_lower:
+#         doctors = [doc for doc in doctors_data if "fever" in doc["specialty"].lower()]
+#         current_chat["doctors"] = doctors
+#         if doctors:
+#             doctor_names = "\n".join([f"{i + 1}) {doc['name']}" for i, doc in enumerate(doctors)])
+#             response = f"Here are the doctors available for fever:\n{doctor_names}\nPlease select a doctor by number."
+
+#             if "doctors" in current_chat:
+#             # Handle doctor selection
+#                 try:
+#                     doctor_index = int(user_message) - 1  # Convert input to zero-based index
+#                     doctors = current_chat["doctors"]
+#                     if 0 <= doctor_index < len(doctors):
+#                         current_chat["selected_doctor"] = doctors[doctor_index]["name"]
+#                         response = "Please choose a day for your appointment from today to the next 7 days (Monday to Friday):"
+#                         weekdays = get_weekdays()
+#                         response += " " + ", ".join([day.split()[0] for day in weekdays])  # Show the day names
+#                         current_chat["awaiting_day"] = True  # Indicate waiting for the day input
+                        
+                        
+#                         if current_chat.get("awaiting_time_slot"):
+#                             valid_time_slots = ["9-12", "1-3", "4-6"]
+#                             if user_message in valid_time_slots:
+#                                 appointment = f"Appointment with {current_chat['selected_doctor']} on {current_chat['selected_day']} Slot {user_message}"
+#                                 users_data[user_id]['appointments'].append(appointment)
+#                                 current_chat["appointment_booked"] = True
+#                                 response = f"Your appointment has been booked for {appointment}."
+#                                 save_user_data(users_data)
+#                                 current_chat.clear()
+#                             else:
+#                                 response = "Please choose a valid time slot: 9-12, 1-3, 4-6."
+
+                        
+#                     else:
+#                         response = "Please select a valid doctor number."
+#                 except ValueError:
+#                     response = "Please select a valid doctor number."
+                
+                
+#                 else:
+#                     response = "Sorry, there are no doctors available for fever."
+#                     current_chat.clear()
+    
+    
+    
+#     else:
+#         response = "I'm sorry, I don't understand. You can say 'I want to add an appointment'."
+
+#     users_data[user_id]['current_chat'] = current_chat
+#     save_user_data(users_data)
+#     return response
+
+# def get_weekdays():
+#     from datetime import datetime, timedelta
+
+#     weekdays = []
+#     today = datetime.now()
+#     for i in range(7):
+#         day = today + timedelta(days=i)
+#         if day.weekday() < 5:  # 0-4 are Monday-Friday
+#             weekdays.append(day.strftime("%A %d %b %Y"))
+#     return weekdays
+
+
+# def chatbot_response(user_message, user_id, users_data):
+#     response = ""
+#     current_chat = users_data[user_id].get('current_chat', {})
+
+#     user_message_lower = user_message.lower().strip()  # Convert message to lowercase and strip spaces
+
+#     # Check if the user already has an appointment booked
+#     if 'appointments' in users_data[user_id] and users_data[user_id]['appointments']:
+#         response = "You already have an appointment booked. If you want to change it, please cancel your current appointment first."
+#     elif "book_appointment" in current_chat:
+#         if "weekday" not in current_chat:
+#             # Check if the user selected a valid weekday
+#             days = [(datetime.now() + timedelta(days=i)).strftime("%A") for i in range(7)]
+#             if user_message.capitalize() in days:
+#                 current_chat["weekday"] = user_message.capitalize()  # Store the selected weekday
+#                 response = "Please choose a time slot: 9-12, 1-3, 4-6"
+#             else:
+#                 response = "Please select a weekday from today to the next 7 days: " + ", ".join(days)
+#         elif "time_slot" not in current_chat:
+#             # Check if the user selected a valid time slot
+#             valid_time_slots = ["9-12", "1-3", "4-6"]
+#             if user_message in valid_time_slots:
+#                 current_chat["time_slot"] = user_message  # Store the selected time slot
+#                 # Store the appointment in the user's data
+#                 appointment = f"{current_chat['weekday']} at {current_chat['time_slot']}"
+#                 users_data[user_id]['appointments'].append(appointment)
+#                 response = f"Your appointment has been booked for {appointment}."
+#                 current_chat.clear()  # Clear the current appointment flow
+#             else:
+#                 response = "Please choose a valid time slot: 9-12, 1-3, 4-6"
+#     elif "hello" in user_message_lower:
+#         response = "Hello! How can I assist you today?"
+#     elif "add appointment" in user_message_lower or "book appointment" in user_message_lower:
+#         response = "Sure! Let's book an appointment. Please choose a day from today to the next 7 days."
+#         current_chat["book_appointment"] = True
+#     else:
+#         response = "I'm sorry, I don't understand. You can say 'I want to add an appointment'."
+
+#     # Save the updated conversation state
+#     users_data[user_id]['current_chat'] = current_chat
+#     save_user_data(users_data)  # Save user data to the JSON file
+#     return response

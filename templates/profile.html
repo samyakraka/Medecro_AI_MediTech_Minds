@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medecro</title>
+    <link rel="icon" href="./static/images/heart-pulse-solid.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./static/css/style.css">
+    <style>
+        @media (max-width:768px) {
+            img {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="{{ url_for('home') }}" class="logo"><i class="fas fa-heartbeat"></i>Medecro </a>
+        <nav class="navbar">
+            {% if username %}
+            <a href="" class="disabled">{{ username }}</a>
+            <a href="{{ url_for('logout') }}">Logout</a>
+            {% else %}
+            <a href="{{ url_for('login') }}">Login</a>
+            {% endif %}
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    {% if user_appointments %}
+    <section class="about" id="about">
+        <h1 class="heading" style="margin-top: 8rem;">User <span> Profile </span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="https://img.freepik.com/premium-photo/patient-boy-hosbital-room-illustration-boy-doctor-ai-generated-image_174191-1911.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Full Name: <span style="font-size: 2.5rem;">{{ first_name }} {{ last_name }}</span></h3>
+                <h3>Phone Number: <span style="font-size: 2.5rem;">{{ phone_number }}</span></h3>
+                <h3>Email: <span style="font-size: 2.5rem;">{{ email }}</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="heading" style="margin-top: 100px;">Your <span>Appointments:</span></h1>
+    <section class="book" id="book">
+        <div class="glass-row-book">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Specialization</th>
+                        <th>Day</th>
+                        <th>Time Slot</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for appointment in user_appointments %}
+                    <tr>
+                        <td>{{ appointment.doctor }}</td>
+                        <td>{{ appointment.specialization }}</td>
+                        <td>{{ appointment.day }}</td>
+                        <td>{{ appointment.time_slot }}</td>
+                        <td style="color: {% if appointment.status == 'Approved' %}#16a085{% elif appointment.status == 'Rejected' %}red{% else %}white{% endif %}">
+                            {{ appointment.status }}</td>
+                        <td>
+                            {% if appointment.status == 'Prescribed' %}
+                            <a href="{{ url_for('view_prescription_patient', appointment_id=appointment.id) }}" target="_blank">Preview Prescription</a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% else %}
+    <section class="about" id="about">
+        <h1 class="heading" style="margin-top: 8rem;">User <span> Profile </span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/user-3711850-3105265.png?f=webp" alt="">
+            </div>
+            <div class="content">
+                <h3>Username: <span style="font-size: 2.5rem;">{{ username }}</span></h3>
+                <h3>Email: <span style="font-size: 2.5rem;">{{ email }}</span></h3>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="{{ url_for('home') }}#home"><i class="fas fa-chevron-right"></i> home</a>
+                <a href="{{ url_for('home') }}#services"><i class="fas fa-chevron-right"></i> services</a>
+                <a href="{{ url_for('home') }}#book"><i class="fas fa-chevron-right"></i>book</a>
+                <a href="{{ url_for('home') }}#scans"><i class="fas fa-chevron-right"></i> scans</a>
+                <a href="{{ url_for('home') }}#blogs"><i class="fas fa-chevron-right"></i> blogs</a>
+                <a href="{{ url_for('home') }}#about"><i class="fas fa-chevron-right"></i> about</a>
+            </div>
+          
+        </div>
+        <div class="credit">created by <span>team of medecro</span> | all rights reserved!</div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./static/js/script.js"></script>
+</body>
+
+</html>

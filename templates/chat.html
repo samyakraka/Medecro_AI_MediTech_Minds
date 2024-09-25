@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat with Chatbot</title>
+  <link rel="stylesheet" href="static/styles.css" />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.button-outer-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.active {
+  background-color: #000;
+}
+
+body.active .primary--button {
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+
+.primary--button {
+  width: 150px;
+  min-height: 50px;
+  border: none;
+  background-color: transparent;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  position: relative;
+  cursor: pointer;
+}
+
+.primary--button::after {
+  content: "";
+  min-height: 40px;
+  width: 45px;
+  display: block;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: transform 1s;
+}
+
+.primary--button:before {
+  content: "Off";
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  right: unset;
+  transform: translateY(-50%);
+  color: #ccc;
+  text-transform: uppercase;
+  transition: content 1s;
+}
+
+.turn-on .primary--button:before {
+  content: "ON";
+  right: 100px;
+  left: unset;
+  transition: content 1s;
+}
+
+.turn-on .primary--button::after {
+  content: "";
+  min-height: 40px;
+  width: 45px;
+  display: block;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translate(90px, -50%);
+  transition: transform 1s;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+      background-color: #2f2f2f;
+    }
+
+    .container {
+      display: flex;
+      flex-grow: 1;
+      transition: all 0.3s ease;
+      overflow: hidden;
+    }
+
+    .left-column {
+      width: 18%;
+      background-color: #1c1b1b;
+      padding: 20px;
+      overflow-y: auto;
+      position: relative;
+      transition: width 0.3s ease;
+      overflow-y: hidden;
+      /* Hide vertical scroll */
+    }
+
+    .left-column.hidden {
+      width: 5%;
+      padding: 10px;
+    }
+
+    .appointments-box {
+      background-color: #097375;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 100%;
+      color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .appointments-box.hidden {
+      display: none;
+    }
+
+    .settings-icon {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      cursor: pointer;
+      font-size: 24px;
+    }
+
+    .right-column {
+      width: 82%;
+      padding: 20px;
+      background-color: #0b0b0b;
+      overflow-y: hidden;
+      /* Hide scroll here too */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .chat-history {
+      border: none;
+      border-radius: 10px;
+      background-color: #0b0b0b;
+      height: calc(100vh - 300px);
+      padding: 20px;
+      overflow-y: auto;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .message {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 15px;
+      max-width: 75%;
+      transition: all 0.3s ease;
+    }
+
+    .bot-message {
+      background-color: #1c1b1b;
+      color: white;
+      border-radius: 20px 20px 20px 0;
+      padding: 10px 15px;
+    }
+
+    .user-message {
+      background-color: #2f2f2f;
+      color: white;
+      border-radius: 20px 20px 0 20px;
+      padding: 10px 15px;
+      align-self: flex-end;
+    }
+
+    .timestamp {
+      font-size: 12px;
+      color: #7f8c8d;
+      margin-left: 10px;
+    }
+
+    .main-bottom {
+      padding: 20px 0;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      padding: 10px 20px;
+      border-radius: 50px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-box input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      padding: 10px;
+      font-size: 18px;
+      color: #1c1b1b;
+    }
+
+    .bottom-info {
+      color: #7f8c8d;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .toggle-button img {
+      width: 28px;
+      height: 28px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .left-column {
+        display: none;
+      }
+
+      .right-column {
+        width: 100%;
+      }
+
+      .chat-history {
+        height: calc(100vh - 220px);
+      }
+
+      .search-box input {
+        font-size: 16px;
+      }
+    }
+
+    .greet {
+      background: #097375;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+    .back-button {
+      width: 100%;
+      /* Make the button the same width as appointments box */
+      padding: 10px;
+      background-color: #007bff;
+      /* Bootstrap primary color */
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .settings-container {
+      position: relative;
+      /* Position relative for popup */
+    }
+
+    .settings-button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      /* Bootstrap primary color */
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+      border-radius: 5px;
+      /* Rounded corners */
+      transition: background-color 0.3s ease;
+      /* Transition for hover effect */
+    }
+
+    .settings-button:hover {
+      background-color: #0056b3;
+      /* Darker shade for hover */
+    }
+
+    .settings-popup {
+      position: fixed;
+      left: 14rem;
+      top: 27rem;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      z-index: 0;
+      padding: 41px;
+      animation: fadeIn 0.3s;
+    }
+
+    .popup-header {
+      display: flex;
+      justify-content: space-between;
+      /* Space between title and close button */
+      align-items: center;
+      /* Center vertically */
+    }
+
+    .popup-header h3 {
+      margin: 0;
+      /* Remove default margin */
+      font-size: 1.2em;
+      /* Increase font size */
+    }
+
+    .close-popup {
+      background: none;
+      border: none;
+      font-size: 1.5em;
+      /* Larger font for close button */
+      cursor: pointer;
+      /* Pointer cursor */
+      color: #aaa;
+      /* Gray color */
+      transition: color 0.3s ease;
+      /* Smooth color transition */
+    }
+
+    .close-popup:hover {
+      color: #ff4d4d;
+      /* Red color on hover */
+    }
+
+    .dark-theme-toggle {
+      display: flex;
+      align-items: center;
+      /* Align items vertically */
+      width: 100%;
+      /* Full width */
+      margin-top: 15px;
+      /* Space above */
+      padding: 10px;
+      /* Padding for comfort */
+      border-radius: 5px;
+      /* Rounded corners */
+      background: #f7f7f7;
+      /* Light background */
+      transition: background-color 0.3s ease;
+      /* Smooth background transition */
+    }
+
+    .dark-theme-toggle:hover {
+      background-color: #e0e0e0;
+      /* Slightly darker on hover */
+    }
+
+    .toggle-label {
+      flex-grow: 1;
+      /* Take remaining space */
+      margin-left: 10px;
+      /* Space between icon and label */
+      font-size: 1em;
+      /* Standard font size */
+    }
+
+    .mdc-switch {
+      display: inline-block;
+      width: 40px;
+      /* Width of switch */
+      height: 20px;
+      /* Height of switch */
+      position: relative;
+    }
+
+    .mdc-switch__track {
+      background: #ccc;
+      /* Track color */
+      border-radius: 20px;
+      /* Rounded track */
+      width: 100%;
+      height: 100%;
+    }
+
+    .mdc-switch__handle {
+      background: #fff;
+      /* Handle color */
+      border-radius: 50%;
+      position: absolute;
+      width: 20px;
+      /* Handle width */
+      height: 20px;
+      /* Handle height */
+      top: 0;
+      left: 0;
+      transition: transform 0.3s ease;
+      /* Smooth transition for handle */
+    }
+
+    /* Transition for toggle */
+    .mdc-switch[aria-checked="true"] .mdc-switch__handle {
+      transform: translateX(20px);
+      /* Move handle when checked */
+      background: #4caf50;
+      /* Green color when active */
+    }
+
+    /* Animation for popup */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        /* Start invisible */
+        transform: translateY(-10px);
+        /* Start slightly above */
+      }
+
+      to {
+        opacity: 1;
+        /* Fade in */
+        transform: translateY(0);
+        /* Move to original position */
+      }
+    }
+
+    /* Dark Mode Styles */
+    .dark-mode .body{
+      background-color: #121212;
+      /* Dark background */
+      color: white;
+      /* Light text */
+    }
+
+    .dark-mode .settings-popup {
+      background: #1e1e1e;
+      /* Darker popup background */
+      border-color: #444;
+      /* Darker border */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Left column -->
+    <div class="left-column" id="appointments-container">
+      <button class="toggle-button" onclick="toggleSidebar()">
+        <img src="/static/images/toggle-icon.png" alt="Menu Icon" />
+      </button>
+      <div class="appointments-box">
+        <h2>Appointments</h2>
+        <ul class="appointment-section">
+          {% if appointments and appointments|length > 0 %} {% for appointment
+          in appointments %}
+          <li>
+            <strong>{{ appointment.doctor }}</strong><br />
+            Day: {{ appointment.day }}<br />
+            Time: {{ appointment.time_slot }}
+          </li>
+          {% endfor %} {% else %}
+          <li>No appointments available.</li>
+          {% endif %}
+        </ul>
+        <a href="/appointments" style="color: white">View All Appointments</a>
+      </div>
+      <!-- Back Button -->
+       
+      <button class="back-button"><a class="back-button" href="{{url_for('home')}}">Back</a></button>
+
+      <!-- Settings Button -->
+      <div class="settings-container">
+        <button class="settings-button" onclick="toggleSettingsPopup()">Settings</button>
+        <div class="settings-popup" id="settings-popup" style="display: none;">
+                  <button class="dark-theme-toggle" onclick="toggleTheme()">
+                    <mat-icon role="img"
+                      class="mat-icon notranslate icon-size-medium google-symbols mat-ligature-font mat-icon-no-color"
+                      aria-hidden="true">dark_mode</mat-icon>
+                    <span class="mat-mdc-menu-item-text">
+                      <span class="menu-item-title-with-trailing-component">Dark theme</span>
+                      <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary" id="theme-switch"
+                        aria-label="Enables or disables the Dark theme" aria-checked="false">
+                        <div class="mdc-form-field mat-internal-form-field">
+                          <button role="switch" type="button" class="mdc-switch" id="theme-switch-button" aria-checked="false">
+                            <span class="mdc-switch__track"></span>
+                            <span class="mdc-switch__handle-track">
+                              <span class="mdc-switch__handle"></span>
+                            </span>
+                          </button>
+                        </div>
+                      </mat-slide-toggle>
+                    </span>
+                  </button>
+                
+        </div>
+
+      </div>
+
+      <!-- Right column -->
+      <div class="right-column">
+        <h2 class="greet">Gen Ai Chatbot</h2>
+        <div class="chat-history" id="chat_history">
+          {% for chat in chat_history %}
+          <div class="message {% if chat.sender == 'bot' %} bot-message {% else %} user-message {% endif %}">
+            {{ chat.message | safe }}
+            <span class="timestamp">{{ chat.timestamp }}</span>
+          </div>
+          {% endfor %}
+        </div>
+
+        <div class="main-bottom">
+          <form method="POST" action="/chat" class="search-box">
+            <input type="text" name="message" required placeholder="Type your message..." />
+            <button type="submit">
+              <img src="/static/images/Send.png" alt="Send Icon" style="    background-color: #e6e6e6;
+              border: 1px solid #d5d5d5;
+              border-radius: 42%;
+              padding: 1px; " />
+            </button>
+          </form>
+          <p class="bottom-info">
+            Medecro-AI may display inaccurate info, so always double-check the
+            responses.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="static/scripts.js"></script>
+    <script>
+      function scrollToBottom() {
+        var chatHistory = document.getElementById("chat_history");
+        chatHistory.scrollTop = chatHistory.scrollHeight;
+      }
+
+      function animateBotMessage(element) {
+        const message = element.innerText;
+        element.innerText = "";
+        const words = message.split(" ");
+
+        let index = 0;
+        const interval = setInterval(() => {
+          if (index < words.length) {
+            element.innerHTML += words[index] + " ";
+            index++;
+          } else {
+            clearInterval(interval);
+          }
+        }, 100);
+      }
+
+      function toggleSidebar() {
+        const leftColumn = document.querySelector(".left-column");
+        const content = leftColumn.querySelector(".appointments-box");
+        leftColumn.classList.toggle("hidden");
+        content.style.display = leftColumn.classList.contains("hidden")
+          ? "none"
+          : "block";
+      }
+
+      window.onload = function () {
+        scrollToBottom();
+        const botMessages = document.querySelectorAll(".bot-message");
+        if (botMessages.length > 0) {
+          animateBotMessage(botMessages[botMessages.length - 1]);
+        }
+      };
+
+
+      function toggleSettingsPopup() {
+        const popup = document.getElementById('settings-popup');
+        popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+      }
+
+      function toggleTheme() {
+        const themeSwitchButton = document.getElementById('theme-switch-button');
+        const isChecked = themeSwitchButton.getAttribute('aria-checked') === 'true';
+        themeSwitchButton.setAttribute('aria-checked', !isChecked);
+        document.body.classList.toggle('dark-mode', !isChecked); // Add a class to change theme
+
+        // Optional: Implement your theme switch logic here
+      }
+
+      const button = document.getElementsByClassName("js-button")[0];
+button.addEventListener("click", function (event) {
+  let parentNode = event.target.parentNode;
+  if (parentNode.classList.contains("turn-on")) {
+    event.target.parentNode.classList.remove("turn-on");
+    document.body.classList.remove("active");
+  } else {
+    event.target.parentNode.classList.add("turn-on");
+    document.body.classList.add("active");
+  }
+});
+
+    </script>
+</body>
+
+</html>
