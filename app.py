@@ -42,7 +42,7 @@ def save_user_credentials(data):
 
 
 # Configure the API key from the environment variable
-genai.configure(api_key= 'AIzaSyABBaeKAY2x-yIugIXeelO5hvN_jwCOUOg' )
+genai.configure(api_key= 'Your_API_Key' )
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 def run_chat(prompt):
