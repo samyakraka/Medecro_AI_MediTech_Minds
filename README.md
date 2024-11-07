@@ -40,6 +40,9 @@ This repository contains an intelligent chatbot designed to provide users with a
 - Improve accuracy with updated medical datasets.
 - Add support for more languages and voice assistance.
 
+## About
+This project was developed as part of the Medecro HealthHack 2024, where our team was selected as a finalist.
+
 ## License
 This project is licensed under the MIT License.
 
