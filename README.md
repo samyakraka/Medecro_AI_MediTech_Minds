@@ -45,5 +45,6 @@ This project was developed as part of the Medecro HealthHack 2024, where our tea
 
 ## License
 This project is licensed under the MIT License.
+![WhatsApp Image 2024-12-21 at 6 55 14 PM](https://github.com/user-attachments/assets/33301ade-18ca-4e0d-8c5c-25892e71491a)
 
 --- 
