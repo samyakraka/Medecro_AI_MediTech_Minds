@@ -1,5 +1,5 @@
 
-# Medecro_AI_MediTech_Minds
+/* # Medecro_AI_MediTech_Minds
 
 **An AI-driven chatbot for medical support and assistance.**
 
@@ -44,7 +44,7 @@ This repository contains an intelligent chatbot designed to provide users with a
 This project was developed as part of the Medecro HealthHack 2024, where our team was selected as a finalist.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. */
 ![WhatsApp Image 2024-12-21 at 6 55 14 PM](https://github.com/user-attachments/assets/33301ade-18ca-4e0d-8c5c-25892e71491a)
 
 --- 
